@@ -1,0 +1,49 @@
+
+
+//this JSON represented how to set analog sensor
+{
+	"setJSON" : {
+		"mid":"1",
+		"sid":"201001",
+		"class":"analog", //analog/discret/switch
+		"type":"Internal", //Internal/CAN/Rs
+		"set":{ //if don't want to set something don't fill it
+			// "name":"xxxx",  //like I didn't want to set name just delete it from Json
+			"LowAlarm":"zz",
+			"LowWarning":"aa",
+			"HighWarning":"bb",
+			"HighAlarm":"cc",
+			"At0":"x.a",
+			"At75":"b.c"
+		}
+	}
+}
+
+//this JSON represented how to set switch sensor
+{
+	"setJSON" : {
+		"mid":"1",
+		"sid":"201001",
+		"class":"switch",
+		"type":"Internal", //Internal/CAN/Rs
+		"set":{
+			"name":"xxxx",
+			"Initial":"on",//on/off
+			"Pulse":"1"//0.0-xx.xx
+		}
+	}
+}
+
+{
+	"setJSON" : {
+		"mid":"1",
+		"sid":"201001",
+		"class":"discretes",
+		"type":"Internal", //Internal/CAN/Rs
+		"set":{
+			"name":"xxxx",
+			"Initial":"on",//on/off
+			"Pulse":"1"//0.0-xx.xx
+		}
+	}
+}

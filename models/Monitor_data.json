@@ -1,0 +1,68 @@
+{
+	"monitors":[
+		{
+			"addr":"1",
+			"address":"161.246.6.96",
+			"name":"sky-control",
+			"date_time":"2016-12-20T12:10:12+7.00", // change to unix timestamp
+			"sensors":[
+				{
+					"index":"101001",
+					"sid":"101001",
+					"num" : "1",
+					"group":"1",
+					"module":"1",
+					"class":"discrete",
+					"type":"dry",
+					"name":"Dry-1",
+					"state":"normal",
+					"value":"0",
+					"spec":""
+				},
+				{
+					"index":"101001",
+					"sid":"101001",
+					"num" : "1",
+					"group":"1",
+					"module":"1",
+					"class":"discrete",
+					"type":"dry",
+					"name":"Dry-1",
+					"state":"normal",
+					"value":"0",
+					"spec":""
+				}
+			]
+		}
+	]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

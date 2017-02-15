@@ -1,0 +1,22 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "crypto": "0.0.3",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.23",
+    "mongoskin": "^2.1.0",
+    "net-snmp": "^1.1.18",
+    "promise": "^7.1.1",
+    "request": "^2.79.0"
+  }
+}
