@@ -43,12 +43,12 @@ router.get('/', function(req, res) {
 router.post('/set', function(req, res){
 	var setting = req.body;
 	console.log(setting);
-	var monitorID;
+	var monitor;
 //	console.log("content");
 //	console.log(jsonContent);
 	for(i=0; i<jsonContent.monitors.length; i++){
-		if(jsonContent.monitors[i].MID == setting.mid){
-			monitorID = jsonContent.monitors[i];
+		if(jsonContent.monitors[i].HOSTIP == setting.addr){
+			monitor = jsonContent.monitors[i];
 		}
 		//console.log(jsonContent.monitors[i]);
 	}
@@ -73,7 +73,6 @@ router.post('/addmonitor', function(req, res){
 			}
 		}
 		secureWrite = {
-			MID: randomMID(5),
 			USERNAME:setting.addMonitor.USERNAME,
 			AUTHPASSWORD:setting.addMonitor.AUTHPASSWORD,
 			PRIVPASSWORD:setting.addMonitor.PRIVPASSWORD,
